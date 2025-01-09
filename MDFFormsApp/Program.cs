@@ -49,7 +49,6 @@ class Program
             }
             else if (command.Equals("exit", StringComparison.OrdinalIgnoreCase))
             {
-                client.Close().Wait();
                 break;
             }
             else
